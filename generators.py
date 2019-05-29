@@ -5,9 +5,9 @@ import torch
 import rdkit
 from rdkit import Chem
 from rdkit.Chem import AllChem
-from htmd.molecule.util import uniformRandomRotation
-from htmd.smallmol.smallmol import SmallMol
-from htmd.molecule.voxeldescriptors import _getOccupancyC, _getGridCenters
+from moleculekit.util import uniformRandomRotation
+from moleculekit.smallmol.smallmol import SmallMol
+from moleculekit.tools.voxeldescriptors import _getOccupancyC, _getGridCenters
 
 import numpy as np
 import multiprocessing
